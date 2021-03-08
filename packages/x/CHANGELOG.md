@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.1.0](https://github.com/Tencent/wepy/compare/v2.1.0...v4.1.0) (2021-03-08)
+
+
+### Bug Fixes
+
+* **x:** fixed store state is not clean when page unloaded ([8358ad2](https://github.com/Tencent/wepy/commit/8358ad2942dbe6981f9b382ba5848ca3bc547ef7)), closes [#2687](https://github.com/Tencent/wepy/issues/2687)
+
+
+
+
+
+
 # 2.1.0 (2020-07-04)
 
 **Note:** Version bump only for package @wepywu/x

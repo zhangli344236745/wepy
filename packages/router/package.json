@@ -1,6 +1,6 @@
 {
   "name": "@wepywu/router",
-  "version": "0.0.1",
+  "version": "4.1.0",
   "description": "router in WePY",
   "main": "dist/index.js",
   "scripts": {

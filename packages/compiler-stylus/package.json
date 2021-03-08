@@ -1,6 +1,6 @@
 {
   "name": "@wepywu/compiler-stylus",
-  "version": "2.1.0",
+  "version": "4.1.0",
   "description": "wepy compile stylus",
   "main": "index.js",
   "scripts": {
