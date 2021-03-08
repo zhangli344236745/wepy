@@ -5,7 +5,7 @@
 ## 安装
 
 ```bash
-npm install @wepywu/plugin-define --save-dev
+npm install wepywu/plugin-define --save-dev
 ```
 
 ## 配置方式
@@ -13,7 +13,7 @@ npm install @wepywu/plugin-define --save-dev
 **wepy.config.js**
 
 ```javascript
-const DefinePlugin = require('@wepywu/plugin-define');
+const DefinePlugin = require('wepywu/plugin-define');
 
 module.exports = {
   plugins: [

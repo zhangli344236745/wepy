@@ -1,7 +1,7 @@
 exports = module.exports = function initCompiler(ins, compilers = {}) {
   let init = Object.keys(compilers).map(c => {
     let module;
-    let moduleName = `@wepywu/compiler-${c}`;
+    let moduleName = `wepywu/compiler-${c}`;
     return ins.resolvers.context
       .resolve({}, ins.context, moduleName, {})
       .then(rst => {

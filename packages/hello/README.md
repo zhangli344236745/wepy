@@ -1,11 +1,11 @@
-# `@wepywu/hello`
+# `wepywu/hello`
 
 > TODO: description
 
 ## Usage
 
 ```
-const hello = require('@wepywu/hello');
+const hello = require('wepywu/hello');
 
 // TODO: DEMONSTRATE API
 ```

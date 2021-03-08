@@ -5,7 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [4.1.1](https://github.com/zhangli344236745/wepy/compare/v4.1.0...v4.1.1) (2021-03-08)
 
-**Note:** Version bump only for package @wepywu/hello
+**Note:** Version bump only for package wepywu/hello
 
 
 
@@ -13,4 +13,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [4.1.0](https://github.com/zhangli344236745/wepy/compare/v2.1.0...v4.1.0) (2021-03-08)
 
-**Note:** Version bump only for package @wepywu/hello
+**Note:** Version bump only for package wepywu/hello

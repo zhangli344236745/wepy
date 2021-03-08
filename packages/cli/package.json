@@ -1,5 +1,5 @@
 {
-  "name": "@wepywu/cli",
+  "name": "wepywu/cli",
   "version": "4.1.1",
   "main": "index.js",
   "bin": {
@@ -79,7 +79,7 @@
     "access": "public"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "@wepywu/cli@2.0.0-alpha.28",
+  "_id": "wepywu/cli@2.0.0-alpha.28",
   "_commitid": "e714739",
-  "gitHead": "1413ffa74943c219cccff85caebe5e5db7ef5d2a"
+  "gitHead": "9a548a3d8a8e8e0768d2bcefcd80c4a9f495f471"
 }

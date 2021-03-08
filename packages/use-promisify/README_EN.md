@@ -1,13 +1,13 @@
 English | [简体中文](./README.md)
 
-# @wepywu/use-promisify
+# wepywu/use-promisify
 
 Promisfy all weapp APIs.
 
 ## Install
 
 ```
-npm install @wepywu/use-promisify --save
+npm install wepywu/use-promisify --save
 ```
 
 ## Usage
@@ -16,8 +16,8 @@ npm install @wepywu/use-promisify --save
 ### Basic Usage
 
 ```
-import wepy from '@wepywu/core';
-import promisify  from '@wepywu/use-promisify';
+import wepy from 'wepywu/core';
+import promisify  from 'wepywu/use-promisify';
 
 wepy.use(promisify);
 

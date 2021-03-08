@@ -2,6 +2,6 @@
 
 const hello = require('..');
 
-describe('@wepywu/hello', () => {
+describe('wepywu/hello', () => {
     it('needs tests');
 });

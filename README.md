@@ -59,7 +59,7 @@ WePY (发音: /'wepi/)是一款让小程序支持组件化开发的框架，通�
 </config>
 
 <script>
-  import wepy from '@wepywu/core';
+  import wepy from 'wepywu/core';
 
   wepy.page({
     data: {
@@ -75,7 +75,7 @@ WePY (发音: /'wepi/)是一款让小程序支持组件化开发的框架，通�
 #### 安装（更新） wepy 命令行工具。
 
 ```console
-npm install @wepywu/cli@next -g
+npm install wepywu/cli@next -g
 ```
 
 #### 生成开发示例

@@ -1,5 +1,5 @@
 {
-  "name": "@wepywu/hello",
+  "name": "wepywu/hello",
   "version": "4.1.1",
   "description": "hello world",
   "keywords": [
@@ -30,5 +30,5 @@
   "bugs": {
     "url": "https://github.com/zhangli344236745/wepy/issues"
   },
-  "gitHead": "1413ffa74943c219cccff85caebe5e5db7ef5d2a"
+  "gitHead": "9a548a3d8a8e8e0768d2bcefcd80c4a9f495f471"
 }

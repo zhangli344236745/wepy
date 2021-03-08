@@ -1,5 +1,5 @@
 {
-  "name": "@wepywu/x",
+  "name": "wepywu/x",
   "version": "4.1.1",
   "description": "Vuex in WePY",
   "main": "dist/index.js",
@@ -27,7 +27,7 @@
     "vuex": "^3.1.1"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "@wepywu/x@2.1.1-alpha.0",
+  "_id": "wepywu/x@2.1.1-alpha.0",
   "_commitid": "8358ad2",
-  "gitHead": "1413ffa74943c219cccff85caebe5e5db7ef5d2a"
+  "gitHead": "9a548a3d8a8e8e0768d2bcefcd80c4a9f495f471"
 }

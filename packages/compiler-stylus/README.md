@@ -3,7 +3,7 @@
 ## 安装
 
 ```
-npm install @wepywu/compiler-stylus --save-dev
+npm install wepywu/compiler-stylus --save-dev
 ```
 
 

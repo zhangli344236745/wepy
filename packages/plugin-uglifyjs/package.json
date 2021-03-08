@@ -1,5 +1,5 @@
 {
-  "name": "@wepywu/plugin-uglifyjs",
+  "name": "wepywu/plugin-uglifyjs",
   "version": "4.1.1",
   "description": "wepy uglifyjs",
   "main": "index.js",
@@ -18,7 +18,7 @@
     "uglify-js": "^3.4.9"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "@wepywu/plugin-uglifyjs@0.0.3",
+  "_id": "wepywu/plugin-uglifyjs@0.0.3",
   "_commitid": "4a8435b",
-  "gitHead": "1413ffa74943c219cccff85caebe5e5db7ef5d2a"
+  "gitHead": "9a548a3d8a8e8e0768d2bcefcd80c4a9f495f471"
 }

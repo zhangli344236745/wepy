@@ -1,5 +1,5 @@
 {
-  "name": "@wepywu/plugin-define",
+  "name": "wepywu/plugin-define",
   "version": "4.1.1",
   "description": "wepy define plugin",
   "main": "index.js",
@@ -17,10 +17,10 @@
   },
   "license": "MIT",
   "readme": "ERROR: No README data found!",
-  "_id": "@wepywu/plugin-define@2.0.4",
+  "_id": "wepywu/plugin-define@2.0.4",
   "_commitid": "fb07fd4",
   "devDependencies": {
-    "@wepywu/cli": "^4.1.1"
+    "wepywu/cli": "^4.1.1"
   },
-  "gitHead": "1413ffa74943c219cccff85caebe5e5db7ef5d2a"
+  "gitHead": "9a548a3d8a8e8e0768d2bcefcd80c4a9f495f471"
 }

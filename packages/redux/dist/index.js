@@ -48,7 +48,7 @@ var mapActions = function(actions) {
 
       if (!this.$store) {
         // eslint-disable-next-line
-        console.warn(("[@wepywu/redux] action \"" + key + "\" do not work, if store is not defined."));
+        console.warn(("[wepywu/redux] action \"" + key + "\" do not work, if store is not defined."));
         return;
       }
       var dispatchParam;
@@ -78,7 +78,7 @@ function wepyInstall(wepy) {
       if (checkReduxComputed(this.$options)) {
         if (!this.$store) {
           // eslint-disable-next-line
-          console.warn("[@wepywu/redux] state do not work, if store is not defined.");
+          console.warn("[wepywu/redux] state do not work, if store is not defined.");
           return;
         }
         var ref = this.$options;

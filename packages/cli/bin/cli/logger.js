@@ -5,7 +5,7 @@ const format = require('util').format;
  * Prefix.
  */
 
-const prefix = '   @wepywu/cli';
+const prefix = '   wepywu/cli';
 const sep = chalk.gray('·');
 
 /**

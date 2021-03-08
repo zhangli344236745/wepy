@@ -59,7 +59,7 @@ At the same time, WePY is also a growing framework, drawing heavily on the desig
 </config>
 
 <script>
-  import wepy from '@wepywu/core';
+  import wepy from 'wepywu/core';
 
   wepy.page({
     data: {
@@ -75,7 +75,7 @@ At the same time, WePY is also a growing framework, drawing heavily on the desig
 #### Install (upgrade) the WEPY command-line tool.
 
 ```bash
-npm install @wepywu/cli@next -g
+npm install wepywu/cli@next -g
 ```
 
 #### Get start with an example

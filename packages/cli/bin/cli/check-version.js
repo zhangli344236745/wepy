@@ -10,12 +10,12 @@ exports = module.exports = function checkVersion() {
   return new Promise((resolve, reject) => {
     if (!semver.satisfies(process.version, pkgConfig.engines.node)) {
       // eslint-disable-next-line no-console
-      reject(new Error('  You must upgrade node to >=' + pkgConfig.engines.node + '.x to use @wepywu/cli'));
+      reject(new Error('  You must upgrade node to >=' + pkgConfig.engines.node + '.x to use wepywu/cli'));
       return;
     }
     request(
       {
-        url: 'https://registry.npmjs.org/@wepywu/cli',
+        url: 'https://registry.npmjs.org/wepywu/cli',
         timeout: 1000
       },
       (err, res, body) => {
@@ -24,7 +24,7 @@ exports = module.exports = function checkVersion() {
           const localVersion = pkgConfig.version;
           if (semver.lt(localVersion, latestVersion)) {
             /* eslint-disable no-console */
-            console.log(chalk.yellow('  A newer version of @wepywu/cli is available.'));
+            console.log(chalk.yellow('  A newer version of wepywu/cli is available.'));
             console.log();
             console.log('  latest:    ' + chalk.green(latestVersion));
             console.log('  installed: ' + chalk.red(localVersion));

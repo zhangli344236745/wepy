@@ -1,5 +1,5 @@
 {
-  "name": "@wepywu/compiler-stylus",
+  "name": "wepywu/compiler-stylus",
   "version": "4.1.1",
   "description": "wepy compile stylus",
   "main": "index.js",
@@ -24,7 +24,7 @@
     "fs-extra": "^6.0.1"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "@wepywu/compiler-stylus@2.0.1",
+  "_id": "wepywu/compiler-stylus@2.0.1",
   "_commitid": "4913bce",
-  "gitHead": "1413ffa74943c219cccff85caebe5e5db7ef5d2a"
+  "gitHead": "9a548a3d8a8e8e0768d2bcefcd80c4a9f495f471"
 }

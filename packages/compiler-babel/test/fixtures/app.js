@@ -1,4 +1,4 @@
-import wepy from '@wepywu/core'
+import wepy from 'wepywu/core'
 
 wepy.app({
   onLaunch() {

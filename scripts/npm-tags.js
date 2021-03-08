@@ -19,7 +19,7 @@ function updateAllTag(oldTag, newTag) {
 function updateOneTag(pkg, oldTag, newTag) {
   process.env.FORCE_COLOR = 1;
 
-  const npmPkgName = `@wepywu/${pkg}`;
+  const npmPkgName = `wepywu/${pkg}`;
 
   const viewCmd = ['npm', 'view', npmPkgName, 'dist-tags.' + oldTag];
 

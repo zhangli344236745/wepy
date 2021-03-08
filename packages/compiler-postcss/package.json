@@ -1,5 +1,5 @@
 {
-  "name": "@wepywu/compiler-postcss",
+  "name": "wepywu/compiler-postcss",
   "version": "4.1.1",
   "description": "wepy compile postcss",
   "keywords": [
@@ -22,5 +22,5 @@
     "mocha": "^5.2.0",
     "postcss-cssnext": "^3.1.0"
   },
-  "gitHead": "1413ffa74943c219cccff85caebe5e5db7ef5d2a"
+  "gitHead": "9a548a3d8a8e8e0768d2bcefcd80c4a9f495f471"
 }

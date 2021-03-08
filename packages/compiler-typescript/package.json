@@ -1,5 +1,5 @@
 {
-  "name": "@wepywu/compiler-typescript",
+  "name": "wepywu/compiler-typescript",
   "version": "4.1.1",
   "description": "wepy compile typescript",
   "main": "index.js",
@@ -17,7 +17,7 @@
   "peerDependencies": {
     "typescript": "^3.3.3"
   },
-  "_id": "@wepywu/compiler-typescript@2.0.2",
+  "_id": "wepywu/compiler-typescript@2.0.2",
   "_commitid": "eae8bf5",
-  "gitHead": "1413ffa74943c219cccff85caebe5e5db7ef5d2a"
+  "gitHead": "9a548a3d8a8e8e0768d2bcefcd80c4a9f495f471"
 }

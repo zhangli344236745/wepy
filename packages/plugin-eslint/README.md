@@ -3,13 +3,13 @@
 ## 安装
 
 ```bash
-npm install @wepywu/plugin-eslint --save-dev
+npm install wepywu/plugin-eslint --save-dev
 ```
 
 ## 配置`wepy.config.js`
 
 ```javascript
-const eslint = require('@wepywu/plugin-eslint');
+const eslint = require('wepywu/plugin-eslint');
 
 module.exports = {
   plugins: [
@@ -29,7 +29,7 @@ module.exports = {
 如果此选项设置为true，插件将仅处理和报告错误，忽略警告
 
 ```javascript
-const eslint = require('@wepywu/plugin-eslint');
+const eslint = require('wepywu/plugin-eslint');
 
 module.exports = {
   plugins: [
@@ -58,7 +58,7 @@ module.exports = {
 用于格式化 ```ESLint``` 输出，选项值接收字符串或者函数
 
 ```javascript
-const eslint = require('@wepywu/plugin-eslint');
+const eslint = require('wepywu/plugin-eslint');
 
 module.exports = {
   plugins: [

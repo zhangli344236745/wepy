@@ -1,5 +1,5 @@
 {
-  "name": "@wepywu/use-intercept",
+  "name": "wepywu/use-intercept",
   "version": "4.1.1",
   "description": "wepy intercept",
   "main": "/dist/index.js",
@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "readme": "ERROR: No README data found!",
-  "_id": "@wepywu/use-intercept@2.0.4",
+  "_id": "wepywu/use-intercept@2.0.4",
   "_commitid": "2fd06e4",
-  "gitHead": "1413ffa74943c219cccff85caebe5e5db7ef5d2a"
+  "gitHead": "9a548a3d8a8e8e0768d2bcefcd80c4a9f495f471"
 }

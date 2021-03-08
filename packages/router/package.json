@@ -1,5 +1,5 @@
 {
-  "name": "@wepywu/router",
+  "name": "wepywu/router",
   "version": "4.1.1",
   "description": "router in WePY",
   "main": "dist/index.js",
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/zhangli344236745/wepy#readme",
   "readme": "README.md",
-  "_id": "@wepywu/router@0.0.1",
+  "_id": "wepywu/router@0.0.1",
   "_commitid": "a423f8d",
-  "gitHead": "1413ffa74943c219cccff85caebe5e5db7ef5d2a"
+  "gitHead": "9a548a3d8a8e8e0768d2bcefcd80c4a9f495f471"
 }

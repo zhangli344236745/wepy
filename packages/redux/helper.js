@@ -35,7 +35,7 @@ export const mapActions = function(actions) {
     res[key] = function mappedAction(...args) {
       if (!this.$store) {
         // eslint-disable-next-line
-        console.warn(`[@wepywu/redux] action "${key}" do not work, if store is not defined.`);
+        console.warn(`[wepywu/redux] action "${key}" do not work, if store is not defined.`);
         return;
       }
       let dispatchParam;

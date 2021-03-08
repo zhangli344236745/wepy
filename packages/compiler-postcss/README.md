@@ -3,7 +3,7 @@
 ## 安装
 
 ```
-npm install @wepywu/compiler-postcss --save
+npm install wepywu/compiler-postcss --save
 ```
 
 

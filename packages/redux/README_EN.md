@@ -1,11 +1,11 @@
 English | [简体中文](./README.md)
 
-# Redux in WePY 2.0 
+# Redux in WePY 2.0
 
 ## Install
 
 ```
-npm install @wepywu/redux redux --save
+npm install wepywu/redux redux --save
 ```
 
 ## Usage
@@ -13,8 +13,8 @@ npm install @wepywu/redux redux --save
 1. Install Redux
 ```
 // app.wpy
-import wepy from '@wepywu/core';
-import wepyRedux from '@wepywu/redux';
+import wepy from 'wepywu/core';
+import wepyRedux from 'wepywu/redux';
 
 wepy.use(wepyRedux);
 ```
@@ -46,8 +46,8 @@ export default createStore(combineReducers({
   <button @tap="increment"> Increment </button>
 </template>
 <script>
-import wepy from '@wepywu/core';
-import { mapState } from '@wepywu/redux';
+import wepy from 'wepywu/core';
+import { mapState } from 'wepywu/redux';
 import store from './store'
 
 wepy.component({
@@ -65,17 +65,17 @@ wepy.component({
 
 ## API
 
-* mapState(states) 
+* mapState(states)
 
     states: String/Array/K-V Object. 需要映射的 state 属性。如:
     ```
     mapState('counter')
     mapState(['counter', 'somethingelse'])
     mapState({ alias: 'counter' })
-    mapState({ 
+    mapState({
       num: function (state) {
         return state.counter.num;
-      } 
+      }
     })
     ```
 * mapActions(actions)
@@ -83,14 +83,14 @@ wepy.component({
     actions: K-V Object. 需要映射的 action 。如：
     ```
     mapActions({ add: 'ADD' });
-    mapActions({ 
+    mapActions({
       add: function () {
         return {
           type: 'ADD'
         };
-      } 
+      }
     });
     ```
 
-## Document 
+## Document
 [https://redux.jg.org](https://redux.js.org)

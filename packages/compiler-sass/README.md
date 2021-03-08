@@ -3,7 +3,7 @@
 ## 安装
 
 ```
-npm install @wepywu/compiler-sass --save-dev
+npm install wepywu/compiler-sass --save-dev
 ```
 
 ## 配置`wepy.config.js`

@@ -5,14 +5,14 @@ English | [简体中文](./README.md)
 ## Install
 
 ```bash
-npm install @wepywu/plugin-define --save-dev
+npm install wepywu/plugin-define --save-dev
 ```
 
 ## Configration
 
 **wepy.config.js**
 ```javascript
-const DefinePlugin = require('@wepywu/plugin-define');
+const DefinePlugin = require('wepywu/plugin-define');
 
 module.exports = {
   plugins: [
