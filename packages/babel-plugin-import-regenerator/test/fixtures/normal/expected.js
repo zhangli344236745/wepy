@@ -4,7 +4,7 @@ var _regeneratorRuntime2 = require("regenerator-runtime");
 
 var _regeneratorRuntime3 = _interopRequireDefault(_regeneratorRuntime2);
 
-var _core = require("@wepy/core");
+var _core = require("@wepywu/core");
 
 var _core2 = _interopRequireDefault(_core);
 

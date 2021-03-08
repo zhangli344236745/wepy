@@ -1,5 +1,5 @@
 {
-  "name": "@wepy/router",
+  "name": "@wepywu/router",
   "version": "0.0.1",
   "description": "router in WePY",
   "main": "dist/index.js",
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/Tencent/wepy#readme",
   "readme": "README.md",
-  "_id": "@wepy/router@0.0.1",
+  "_id": "@wepywu/router@0.0.1",
   "_commitid": "a423f8d",
   "gitHead": "5a25776457360bbbbc54a4d059f6bc7c032d5df3"
 }

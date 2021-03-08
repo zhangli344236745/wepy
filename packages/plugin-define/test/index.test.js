@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const Hook = require('@wepy/cli/core/hook');
+const Hook = require('@wepywu/cli/core/hook');
 const PluginDefine = require('../index');
 
 function createCompile(pluginOpt) {

@@ -62,7 +62,7 @@ done
 cd /tmp/templates
 
 # node "$root_path"/packages/cli/bin/wepy.js init wepyjs/wepy-wechat-demo wepy-wechat-demo
-git clone https://github.com/wepyjs/wepy-wechat-demo.git --branch 2.0
+git clone https://github.com/zhangli344236745/wepy-wechat-demo.git --branch 2.0
 
 cd wepy-wechat-demo
 npm install

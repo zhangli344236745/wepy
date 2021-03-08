@@ -4,7 +4,7 @@ const path = require('path');
 const execa = require('execa');
 
 const version = process.argv[2];
-// @wepy/cli@2.0.0-alpha.11
+// @wepywu/cli@2.0.0-alpha.11
 
 if (!version.startsWith('@wepy')) {
   console.log('Do nothing with this version: "' + version + '"');

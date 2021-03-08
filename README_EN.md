@@ -22,8 +22,8 @@ At the same time, WePY is also a growing framework, drawing heavily on the desig
 - Class Vue development style
 - Support for custom component development
 - Support for introducing NPM packages
-- support [Promise](https://github.com/wepyjs/wepy/wiki/wepy%E9%A1%B9%E7%9B%AE%E4%B8%AD%E4%BD%BF%E7%94%A8Promise)
-- Support for ES2015+ features，如 [Async Functions](https://github.com/wepyjs/wepy/wiki/wepy%E9%A1%B9%E7%9B%AE%E4%B8%AD%E4%BD%BF%E7%94%A8async-await)
+- support [Promise](https://github.com/zhangli344236745/wepy/wiki/wepy%E9%A1%B9%E7%9B%AE%E4%B8%AD%E4%BD%BF%E7%94%A8Promise)
+- Support for ES2015+ features，如 [Async Functions](https://github.com/zhangli344236745/wepy/wiki/wepy%E9%A1%B9%E7%9B%AE%E4%B8%AD%E4%BD%BF%E7%94%A8async-await)
 - Supports multiple compilers, Less/Sass/Stylus/PostCSS, Babel/Typescript, Pug
 - Supports a variety of plug-in processing, file compression, image compression, content replacement, etc
 - Supports Sourcemap, ESLint, etc
@@ -59,7 +59,7 @@ At the same time, WePY is also a growing framework, drawing heavily on the desig
 </config>
 
 <script>
-  import wepy from '@wepy/core';
+  import wepy from '@wepywu/core';
 
   wepy.page({
     data: {
@@ -75,7 +75,7 @@ At the same time, WePY is also a growing framework, drawing heavily on the desig
 #### Install (upgrade) the WEPY command-line tool.
 
 ```bash
-npm install @wepy/cli@next -g
+npm install @wepywu/cli@next -g
 ```
 
 #### Get start with an example

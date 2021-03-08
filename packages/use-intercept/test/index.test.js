@@ -22,7 +22,7 @@ function ensureAllTaskDone(taskList, done) {
   };
 }
 
-describe('@wepy/use-intercept', function() {
+describe('@wepywu/use-intercept', function() {
   let __storage = {
     mydata: { a: 1 }
   };

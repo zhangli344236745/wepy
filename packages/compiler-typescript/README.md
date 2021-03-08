@@ -3,14 +3,14 @@
 ## 安装
 
 ```
-npm install @wepy/compiler-typescript typescript --save-dev
+npm install @wepywu/compiler-typescript typescript --save-dev
 ```
 
 ## 配置`wepy.config.js`
 
 ```
 
-const TypeScriptCompiler = require('@wepy/compiler-typescript');
+const TypeScriptCompiler = require('@wepywu/compiler-typescript');
 
 
 module.exports = {

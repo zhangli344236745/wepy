@@ -38,9 +38,9 @@ exports = module.exports = function(options) {
     });
 
     /*  There are two format for the bable compilation
-     *  1. var _core = _interopRequireDefault(require("@wepy/core"));
+     *  1. var _core = _interopRequireDefault(require("@wepywu/core"));
      *
-     *  2. var core = require("@wepy/core");
+     *  2. var core = require("@wepywu/core");
      *     var _core2 = _interopRequireDefault(core);
      */
 
@@ -51,7 +51,7 @@ exports = module.exports = function(options) {
       if (declarator.init && declarator.init.type === 'CallExpression') {
         if (declarator.init.callee.name === 'require') {
           const arg = declarator.init.arguments[0];
-          if (arg && arg.type === 'Literal' && arg.value === '@wepy/core') {
+          if (arg && arg.type === 'Literal' && arg.value === '@wepywu/core') {
             walker.scope.instances.push(declarator.id.name);
           }
         } else if (declarator.init.callee.name === '_interopRequireDefault') {
@@ -60,9 +60,9 @@ exports = module.exports = function(options) {
             arg &&
             arg.type === 'CallExpression' &&
             arg.callee.name === 'require' &&
-            arg.arguments[0].value === '@wepy/core'
+            arg.arguments[0].value === '@wepywu/core'
           ) {
-            // var _core = _interopRequireDefault(require('@wepy/core'));
+            // var _core = _interopRequireDefault(require('@wepywu/core'));
             walker.scope.instances.push(name);
           } else if (arg && arg.type === 'Identifier' && walker.scope.instances.indexOf(arg.name) > -1) {
             // var core2 = _interopRequireDefault(core);

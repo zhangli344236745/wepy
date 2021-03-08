@@ -1,5 +1,5 @@
 {
-  "name": "@wepy/compiler-postcss",
+  "name": "@wepywu/compiler-postcss",
   "version": "2.1.0",
   "description": "wepy compile postcss",
   "keywords": [

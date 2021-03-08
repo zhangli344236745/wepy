@@ -5,7 +5,7 @@
 ## 安装
 
 ```
-npm install @wepy/redux redux --save
+npm install @wepywu/redux redux --save
 ```
 
 ## 用法
@@ -14,8 +14,8 @@ npm install @wepy/redux redux --save
 
 ```
 // app.wpy
-import wepy from '@wepy/core';
-import wepyRedux from '@wepy/redux';
+import wepy from '@wepywu/core';
+import wepyRedux from '@wepywu/redux';
 
 wepy.use(wepyRedux);
 ```
@@ -49,8 +49,8 @@ export default createStore(combineReducers({
   <button @tap="increment"> Increment </button>
 </template>
 <script>
-import wepy from '@wepy/core';
-import { mapState } from '@wepy/redux';
+import wepy from '@wepywu/core';
+import { mapState } from '@wepywu/redux';
 import store from './store'
 
 wepy.component({

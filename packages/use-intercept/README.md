@@ -1,13 +1,13 @@
 [English](./README_EN.md) | 简体中文
 
-# @wepy/use-intercept
+# @wepywu/use-intercept
 
  weapp APIs intercept factory.
 
 ## 安装 
 
 ```
-npm install @wepy/use-intercept --save
+npm install @wepywu/use-intercept --save
 ```
 
 ## 用法
@@ -16,8 +16,8 @@ npm install @wepy/use-intercept --save
 ### 基本用法
 
 ```
-import wepy from '@wepy/core';
-import useIntercept  from '@wepy/use-intercept';
+import wepy from '@wepywu/core';
+import useIntercept  from '@wepywu/use-intercept';
 
 wepy.use(useIntercept);
 

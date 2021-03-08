@@ -5,7 +5,7 @@
 ## 安装
 
 ```
-npm install @wepy/x vuex --save
+npm install @wepywu/x vuex --save
 ```
 
 ## 用法
@@ -14,8 +14,8 @@ npm install @wepy/x vuex --save
 
 ```
 // app.wpy
-import wepy from '@wepy/core';
-import vuex from '@wepy/x';
+import wepy from '@wepywu/core';
+import vuex from '@wepywu/x';
 
 wepy.use(vuex);
 ```
@@ -24,7 +24,7 @@ wepy.use(vuex);
 
 ```
 // ~/store.js
-import Vuex from '@wepy/x';
+import Vuex from '@wepywu/x';
 
 export default new Vuex.Store({
   state: {
@@ -56,8 +56,8 @@ export default new Vuex.Store({
   <button @tap="incrementAsync"> Increment Async </button>
 </template>
 <script>
-import wepy from '@wepy/core';
-import { mapState, mapActions } from '@wepy/x';
+import wepy from '@wepywu/core';
+import { mapState, mapActions } from '@wepywu/x';
 
 wepy.component({
   computed: {

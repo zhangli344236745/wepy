@@ -101,7 +101,7 @@ function testFixture(file) {
     });
 }
 
-describe('@wepy/compiler-babel', function() {
+describe('@wepywu/compiler-babel', function() {
   it('Find entry', function() {
     return testFixture('app.js')
       .then(walker => {

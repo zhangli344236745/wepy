@@ -1,13 +1,13 @@
 [English](./README_EN.md) | 简体中文
 
-# @wepy/use-promisify
+# @wepywu/use-promisify
 
 Promisfy all weapp APIs.
 
 ## 安装
 
 ```
-npm install @wepy/use-promisify --save
+npm install @wepywu/use-promisify --save
 ```
 
 ## 用法
@@ -16,8 +16,8 @@ npm install @wepy/use-promisify --save
 ### 基本用法
 
 ```
-import wepy from '@wepy/core';
-import promisify  from '@wepy/use-promisify';
+import wepy from '@wepywu/core';
+import promisify  from '@wepywu/use-promisify';
 
 wepy.use(promisify);
 

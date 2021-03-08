@@ -51,7 +51,7 @@ exports = module.exports = function(options) {
     // eslint-disable-next-line
     this.register('prewalk-VariableDeclarator', function(walker, declarator, name, decl) {
       if (walker.lang !== 'typescript') return;
-      // var core_1 = __importDefault(require('@wepy/core'))
+      // var core_1 = __importDefault(require('@wepywu/core'))
       if (declarator.init && declarator.init.type === 'CallExpression') {
         if (declarator.init.callee.name === '__importDefault') {
           let arg = declarator.init.arguments[0];
@@ -59,15 +59,15 @@ exports = module.exports = function(options) {
             arg &&
             arg.type === 'CallExpression' &&
             arg.callee.name === 'require' &&
-            arg.arguments[0].value === '@wepy/core'
+            arg.arguments[0].value === '@wepywu/core'
           ) {
             walker.scope.instances.push(name + '.default');
           }
         }
         /*
-         * var core_1 = require('@wepy/core');
+         * var core_1 = require('@wepywu/core');
         if (declarator.init.callee.name === 'require') {
-          if (declarator.init.arguments && declarator.init.arguments[0] && declarator.init.arguments[0].value === '@wepy/core') {
+          if (declarator.init.arguments && declarator.init.arguments[0] && declarator.init.arguments[0].value === '@wepywu/core') {
             walker.scope.instances.push(name + '.default');
           }
         }*/

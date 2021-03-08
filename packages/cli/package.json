@@ -1,5 +1,5 @@
 {
-  "name": "@wepy/cli",
+  "name": "@wepywu/cli",
   "version": "2.1.0",
   "main": "index.js",
   "bin": {
@@ -10,16 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/wepyjs/wepy.git"
+    "url": "git+ssh://git@github.com/zhangli344236745/wepy.git"
   },
   "author": {
     "name": "Gcaufy"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wepyjs/wepy/issues"
+    "url": "https://github.com/zhangli344236745/wepy/issues"
   },
-  "homepage": "https://github.com/wepyjs/wepy#readme",
+  "homepage": "https://github.com/zhangli344236745/wepy#readme",
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-preset-es2015": "^6.18.0",
@@ -79,7 +79,7 @@
     "access": "public"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "@wepy/cli@2.0.0-alpha.28",
+  "_id": "@wepywu/cli@2.0.0-alpha.28",
   "_commitid": "e714739",
   "gitHead": "5a25776457360bbbbc54a4d059f6bc7c032d5df3"
 }

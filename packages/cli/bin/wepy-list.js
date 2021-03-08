@@ -148,7 +148,7 @@ exports = module.exports = program => {
         }
         if (program.github) {
           // eslint-disable-next-line no-console
-          console.log(chalk.gray(`  You can registe your project from here: https://github.com/wepyjs/wepy_templates`));
+          console.log(chalk.gray(`  You can registe your project from here: https://github.com/zhangli344236745/wepy_templates`));
         }
         // eslint-disable-next-line no-console
         console.log('\n');

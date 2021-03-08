@@ -22,8 +22,8 @@ WePY (发音: /'wepi/)是一款让小程序支持组件化开发的框架，通�
 - 类 Vue 开发风格
 - 支持自定义组件开发
 - 支持引入 NPM 包
-- 支持 [Promise](https://github.com/wepyjs/wepy/wiki/wepy%E9%A1%B9%E7%9B%AE%E4%B8%AD%E4%BD%BF%E7%94%A8Promise)
-- 支持 ES2015+ 特性，如 [Async Functions](https://github.com/wepyjs/wepy/wiki/wepy%E9%A1%B9%E7%9B%AE%E4%B8%AD%E4%BD%BF%E7%94%A8async-await)
+- 支持 [Promise](https://github.com/zhangli344236745/wepy/wiki/wepy%E9%A1%B9%E7%9B%AE%E4%B8%AD%E4%BD%BF%E7%94%A8Promise)
+- 支持 ES2015+ 特性，如 [Async Functions](https://github.com/zhangli344236745/wepy/wiki/wepy%E9%A1%B9%E7%9B%AE%E4%B8%AD%E4%BD%BF%E7%94%A8async-await)
 - 支持多种编译器，Less/Sass/Stylus/PostCSS、Babel/Typescript、Pug
 - 支持多种插件处理，文件压缩，图片压缩，内容替换等
 - 支持 Sourcemap，ESLint 等
@@ -59,7 +59,7 @@ WePY (发音: /'wepi/)是一款让小程序支持组件化开发的框架，通�
 </config>
 
 <script>
-  import wepy from '@wepy/core';
+  import wepy from '@wepywu/core';
 
   wepy.page({
     data: {
@@ -75,7 +75,7 @@ WePY (发音: /'wepi/)是一款让小程序支持组件化开发的框架，通�
 #### 安装（更新） wepy 命令行工具。
 
 ```console
-npm install @wepy/cli@next -g
+npm install @wepywu/cli@next -g
 ```
 
 #### 生成开发示例

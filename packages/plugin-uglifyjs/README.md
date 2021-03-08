@@ -3,13 +3,13 @@
 ## 安装
 
 ```bash
-npm install @wepy/plugin-uglifyjs uglify-js --save-dev
+npm install @wepywu/plugin-uglifyjs uglify-js --save-dev
 ```
 
 ## 配置`wepy.config.js`
 
 ```javascript
-const PluginUglifyjs = require('@wepy/plugin-uglifyjs');
+const PluginUglifyjs = require('@wepywu/plugin-uglifyjs');
 
 module.exports = {
   plugins: [

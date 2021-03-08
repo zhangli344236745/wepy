@@ -1,6 +1,6 @@
 English | [简体中文](./README.md)
 
-# @wepy/babel-plugin-import-regenerator
+# @wepywu/babel-plugin-import-regenerator
 
 Allow wepy to use `Async Functions`.
 
@@ -11,7 +11,7 @@ Allow wepy to use `Async Functions`.
 $ npm install regenerator-runtime --save
 
 # Install babel plugin 
-$ npm install @wepy/babel-plugin-import-regenerator --save-dev
+$ npm install @wepywu/babel-plugin-import-regenerator --save-dev
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ Put something like this in your wepy.config.js:
           '@babel/preset-env'
         ],
         plugins: [
-          '@wepy/babel-plugin-import-regenerator'
+          '@wepywu/babel-plugin-import-regenerator'
         ]
       }
     }
