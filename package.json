@@ -28,9 +28,9 @@
   "author": "Gcaufy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Tencent/wepy/issues"
+    "url": "https://github.com/zhangli344236745/wepy/issues"
   },
-  "homepage": "https://github.com/Tencent/wepy#readme",
+  "homepage": "https://github.com/zhangli344236745/wepy#readme",
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-cli": "^6.18.0",

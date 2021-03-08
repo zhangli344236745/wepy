@@ -1,6 +1,6 @@
 [English](./README_EN.md) | 简体中文
 
-# WePY 2.0中的Vuex 
+# WePY 2.0中的Vuex
 
 ## 安装
 
@@ -10,7 +10,7 @@ npm install @wepywu/x vuex --save
 
 ## 用法
 
-1. 安装Vuex 
+1. 安装Vuex
 
 ```
 // app.wpy
@@ -75,4 +75,4 @@ wepy.component({
 
 ## 其他
 
-目前不支持 [Vuex 模块](https://vuex.vuejs.org/guide/modules.html) 。  在此处检查 [问题](https://github.com/Tencent/wepy/issues/2191) 。
+目前不支持 [Vuex 模块](https://vuex.vuejs.org/guide/modules.html) 。  在此处检查 [问题](https://github.com/zhangli344236745/wepy/issues/2191) 。

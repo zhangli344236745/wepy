@@ -4,7 +4,7 @@ English | [简体中文](./README.md)
 
 Promisfy all weapp APIs.
 
-## Install 
+## Install
 
 ```
 npm install @wepywu/use-promisify --save
@@ -92,4 +92,4 @@ wepy.wx.request(myurl);
 wepy.wx.openLocation(0, 0);
 ```
 
-Here we can see all the [Simplify List](https://github.com/Tencent/wepy/blob/2.0.x/packages/use-promisify/index.js#L86-L152) 
+Here we can see all the [Simplify List](https://github.com/zhangli344236745/wepy/blob/2.0.x/packages/use-promisify/index.js#L86-L152)

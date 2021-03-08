@@ -68,6 +68,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.1.0-alpha.4](https://github.com/Tencent/wepy/compare/v2.1.0-alpha.2...v2.1.0-alpha.4) (2020-06-20)
+# [2.1.0-alpha.4](https://github.com/zhangli344236745/wepy/compare/v2.1.0-alpha.2...v2.1.0-alpha.4) (2020-06-20)
 
 **Note:** Version bump only for package @wepywu/plugin-eslint

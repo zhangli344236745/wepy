@@ -92,4 +92,4 @@ wepy.wx.request(myurl);
 wepy.wx.openLocation(0, 0);
 ```
 
-在这里我们可以看到所有的简化列表 [Simplify List](https://github.com/Tencent/wepy/blob/2.0.x/packages/use-promisify/index.js#L86-L152) 
+在这里我们可以看到所有的简化列表 [Simplify List](https://github.com/zhangli344236745/wepy/blob/2.0.x/packages/use-promisify/index.js#L86-L152)

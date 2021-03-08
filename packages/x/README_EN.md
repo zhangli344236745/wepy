@@ -1,6 +1,6 @@
 English | [简体中文](./README.md)
 
-# Vuex in WePY 2.0 
+# Vuex in WePY 2.0
 
 ## Install
 
@@ -10,7 +10,7 @@ npm install @wepywu/x vuex --save
 
 ## Usage
 
-1. Install Vuex 
+1. Install Vuex
 ```
 // app.wpy
 import wepy from '@wepywu/core';
@@ -66,8 +66,8 @@ wepy.component({
 })
 ```
 
-## Document 
+## Document
 [https://vuex.vuejs.org/](https://vuex.vuejs.org/)
 
 ## Other
-[Vuex Module](https://vuex.vuejs.org/guide/modules.html) is not supportted currently. Check the [Issue](https://github.com/Tencent/wepy/issues/2191) here.
+[Vuex Module](https://vuex.vuejs.org/guide/modules.html) is not supportted currently. Check the [Issue](https://github.com/zhangli344236745/wepy/issues/2191) here.

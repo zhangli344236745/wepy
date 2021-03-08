@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tencent/wepy.git"
+    "url": "git+https://github.com/zhangli344236745/wepy.git"
   },
   "keywords": [
     "regenerator-runtime"
@@ -18,9 +18,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Tencent/wepy/issues"
+    "url": "https://github.com/zhangli344236745/wepy/issues"
   },
-  "homepage": "https://github.com/Tencent/wepy#readme",
+  "homepage": "https://github.com/zhangli344236745/wepy#readme",
   "dependencies": {
     "@babel/helper-module-imports": "^7.0.0"
   },
@@ -32,5 +32,5 @@
   "readme": "ERROR: No README data found!",
   "_id": "@wepywu/babel-plugin-import-regenerator@0.0.5",
   "_commitid": "ebdaf08",
-  "gitHead": "5a25776457360bbbbc54a4d059f6bc7c032d5df3"
+  "gitHead": "1413ffa74943c219cccff85caebe5e5db7ef5d2a"
 }
