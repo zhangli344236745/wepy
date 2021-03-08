@@ -1,6 +1,6 @@
 {
   "name": "@wepywu/plugin-eslint",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "description": "wepy eslint",
   "main": "index.js",
   "scripts": {

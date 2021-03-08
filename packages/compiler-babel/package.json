@@ -1,6 +1,6 @@
 {
   "name": "@wepywu/compiler-babel",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "description": "wepy compile babel",
   "main": "index.js",
   "scripts": {

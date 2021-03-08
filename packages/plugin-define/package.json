@@ -1,6 +1,6 @@
 {
   "name": "@wepywu/plugin-define",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "description": "wepy define plugin",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   "_id": "@wepywu/plugin-define@2.0.4",
   "_commitid": "fb07fd4",
   "devDependencies": {
-    "@wepywu/cli": "^4.1.0"
+    "@wepywu/cli": "^4.1.1"
   },
   "gitHead": "1413ffa74943c219cccff85caebe5e5db7ef5d2a"
 }
